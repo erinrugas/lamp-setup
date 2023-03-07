@@ -4,7 +4,7 @@ echo "Do you want to install laravel? [Y,n]"
 
 read answer
 
-filename='/home/eriinr/.bashrc'
+filename="/home/$USER/.bashrc"
 
 if [[ $answer == "Y" || $answer == "y" || $answer == "yes" ]]; then
     #add composer global
